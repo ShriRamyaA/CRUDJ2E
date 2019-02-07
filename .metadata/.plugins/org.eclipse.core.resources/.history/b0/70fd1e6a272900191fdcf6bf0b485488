@@ -1,0 +1,4 @@
+FROM openjdk:11.0-oracle
+ADD ./target/CRUDJ2E.jar /usr/src/CRUDJ2E.jar
+WORKDIR usr/src
+ENTRYPOINT ["java","-jar","CRUDJ2E.jar"]

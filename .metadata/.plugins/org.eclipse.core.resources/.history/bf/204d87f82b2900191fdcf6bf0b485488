@@ -1,0 +1,4 @@
+FROM openjdk:11.0-oracle
+ADD ./target/CRUDJ2E /usr/src/CRUDJ2E
+WORKDIR /CRUDJ2E
+EXPOSE 8080
